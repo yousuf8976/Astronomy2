@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Astronomy</title>
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/Contact.css">
+    <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html">
+            <h1 class="navbar-brand">Astronomy</h1></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics<i class="bi bi-chevron-down"></i> 
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="EvoOfearth.html">Evolution of Earth</a></li>
+                            <li><a class="dropdown-item" href="Bigbangtheory.html">Big Bang Theory</a></li>
+                            <li><a class="dropdown-item" href="Constellations.html">Constellations</a></li>
+                            <li><a class="dropdown-item" href="Planetsdetails.html">Planets Details</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore<i class="bi bi-chevron-down"></i> 
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="LatestDevelopments.html">Latest Developments</a></li>
+                            <li><a class="dropdown-item" href="Comets.html">Comets In Space</a></li>
+                            <li><a class="dropdown-item" href="Observatories.html">Top Observatories</a></li>
+                        </ul>
+                    </li>           
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPlanets" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Planets<i class="bi bi-chevron-down"></i> 
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownPlanets">
+                            <li><a class="dropdown-item" href="Mercury.html">Mercury</a></li>
+                            <li><a class="dropdown-item" href="Venus.html">Venus</a></li>
+                            <li><a class="dropdown-item" href="Earth.html">Earth</a></li>
+                            <li><a class="dropdown-item" href="Mars.html">Mars</a></li>
+                            <li><a class="dropdown-item" href="Jupiter.html">Jupiter</a></li>
+                            <li><a class="dropdown-item" href="Saturn.html">Saturn</a></li>
+                            <li><a class="dropdown-item" href="Uranus.html">Uranus</a></li>
+                            <li><a class="dropdown-item" href="Neptune.html">Neptune</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="contact-header">
+            <h1>GET IN TOUCH WITH US</h1>
+            <p class="pp lead">We would love to hear from you. Please fill out the form below to reach out.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="return validateForm()">
+                        <div class="form-group mb-3">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="w-100">Submit</button>
+                    </form>
+                </div>
+         
+                <div class="img mt-4">
+                    <img src="assets/img/space-wallpaper-banner-background-stunning-view-of-a-cosmic-galaxy-with-planets-and-space-objects-elements-of-this-image-furnished-by-nasa-generate-ai-free-photo.jpg" alt="Space Image" class="img-fluid rounded shadow">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-details">
+                    <h2>Our Location</h2>
+                    <p>Address: Aptech Malir Center</p>
+                    <p>Email: aptechmalir@gmail.com</p>
+                    <p>Phone: 13797495</p>
+                    <p>Follow us on social media:</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-white me-3" style="font-size: 1.5rem;"></i></a>
+                          <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter text-white me-3" style="font-size: 1.5rem;"></i></a>
+                           <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-white me-3" style="font-size: 1.5rem;"></i></a>
+                         <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin text-white" style="font-size: 1.5rem;"></i></a>
+                    </div>
+                    <div class="map mt-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5117.760213926265!2d67.20215227727714!3d24.9047021221249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb337007d3ec103%3A0x574bbbdc0b32cacd!2sAptech%20Malir%20Center!5e0!3m2!1sen!2s!4v1731748695744!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+    <footer class="bg-dark text-white pt-3 pb-3 text-center">
+        <div class="container">
+            <div class="row">    
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold mb-2 mt-4">About Astronomy</h5>
+                    <p class="text-muted">Discover the wonders of the universe with Astronomy. From the Big Bang Theory to the formation of galaxies, stars, and planets, we explore the mysteries of the cosmos and provide insights into the science of space.</p>
+                </div>
+                <div class="col-md-4 mb-3 d-none d-md-block">
+                    <h5 class="fw-bold mb-2 mt-4">Quick Links</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                                <li><a href="About.html" class="text-white text-decoration-none">About Us</a></li>
+                                <li><a href="Contact.html" class="text-white text-decoration-none">Contact Us</a></li>
+                                <li><a href="EvoOfearth.html" class="text-white text-decoration-none">Evolution of Earth</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="Bigbangtheory.html" class="text-white text-decoration-none">Big Bang Theory</a></li>
+                                <li><a href="Planetsdetails.html" class="text-white text-decoration-none">Planets Details</a></li>
+                                <li><a href="LatestDevelopments.html" class="text-white text-decoration-none">Latest Developments</a></li>
+                                <li><a href="Observatories.html" class="text-white text-decoration-none">Top Observatories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold mb-2 mt-4">Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank" class="me-3"><img src="assets/img/fb.webp" alt="Facebook" class="social-icon"></a>
+                        <a href="https://twitter.com" target="_blank" class="me-3"><img src="assets/img/X_logo_2023_(white).png" alt="Twitter" class="social-icon"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="assets/img/instagram-white-icon.webp" alt="Instagram" class="social-icon"></a>
+                        <a href="https://www.linkedin.com" target="_blank"><img src="assets/img/linkedin-app-white-icon.webp" alt="LinkedIn" class="social-icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 pt-2 border-top border-light">
+                <div class="col">
+                    <p class="text-muted mb-0">&copy; 2024 Astronomy Website | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
